@@ -1,0 +1,39 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "firstpage.png",
+          "use1Xscale": false,
+          "name": "firstpage.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Next1"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 246,
+          "y": 172
+        }
+      }
+    ]
+  }
+}

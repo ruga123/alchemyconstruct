@@ -1,0 +1,9 @@
+{
+  "parent": "alchemy_construct:custom/alchemicalstation",
+  "textures": {
+    "all": "alchemy_construct:blocks/alchemicalstationbottom",
+    "particle": "alchemy_construct:blocks/alchemicalstationbottom",
+    "0": "alchemy_construct:blocks/alchemicalstation",
+    "1": "alchemy_construct:blocks/alchemicalstationbottom"
+  }
+}

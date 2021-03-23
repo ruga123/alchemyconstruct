@@ -1,0 +1,32 @@
+{
+  "_fv": 15,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "alchemic_mix",
+    "customModelName": "Normal",
+    "name": "Alchemist's Concoction",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 8,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onRightClicked": {
+      "name": "AlchemicalConcoctionRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "AlchemicalConcoctionRightClickedInAir"
+    }
+  }
+}

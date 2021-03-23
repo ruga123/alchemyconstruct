@@ -1,0 +1,60 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 246,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous",
+          "onClick": {
+            "name": "Prev1"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Previous",
+          "x": 136,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blankguidebook.png",
+          "use1Xscale": false,
+          "name": "blankguidebook.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page2.png",
+          "use1Xscale": false,
+          "name": "page2.png",
+          "x": 122,
+          "y": 32
+        }
+      }
+    ]
+  }
+}

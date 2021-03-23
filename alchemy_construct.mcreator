@@ -1,0 +1,190 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AlchemicalConcoction",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemical_concoction"
+    },
+    {
+      "name": "Alchemicjar",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemicjar"
+    },
+    {
+      "name": "AlchemicalConcoctionRightClickedInAir",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemical_concoction_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlchemyTome",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_tome"
+    },
+    {
+      "name": "AlchemyStation",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_station"
+    },
+    {
+      "name": "AlchemyStationGui",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_station_gui"
+    },
+    {
+      "name": "AlchemyTome1",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_tome_1"
+    },
+    {
+      "name": "AlchemyTome2",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_tome_2"
+    },
+    {
+      "name": "Next1",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "next_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prev1",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prev_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "UsedConcoction",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.alchemy_construct.alchemy_station": "Alchemy Station",
+      "item.alchemy_construct.alchemy_tome": "Tome Of Alchemy",
+      "item.alchemy_construct.alchemicjar": "Alchemist\u0027s Jar",
+      "item.alchemy_construct.alchemical_concoction": "Alchemist\u0027s Concoction"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "alchemy_construct",
+    "modName": "Alchemy Construct",
+    "version": "1.0.0",
+    "author": "yujing, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "modElementsPackage": "net.mcreator.alchemyconstruct",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}
